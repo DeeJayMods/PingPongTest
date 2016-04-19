@@ -1,0 +1,5 @@
+class TennisTest {
+  @Test
+  public void testInitialisationNouveauJeu() {
+    new Jeu() ;
+}
