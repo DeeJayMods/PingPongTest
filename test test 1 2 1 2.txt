@@ -2,8 +2,14 @@ class TennisTest {
   @Test
   public void testInitialisationNouveauJeu() {
     new Jeu() ;
+  }
+  
+  @Test
+  public void testInitialisationNouveauJoueur(){
+    new Joueur();
+  }
 }
 
-FAILED
-YOU LOOSE
-TRY AGAIN
+class Jeu {
+
+};
