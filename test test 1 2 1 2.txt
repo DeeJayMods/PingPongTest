@@ -22,6 +22,10 @@ class Jeu {
   private void reset(){
     
   }
+  
+  private void score (score : string){
+  string : score = score ;
+  }
 }
 
 class Joueur {
