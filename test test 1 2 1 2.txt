@@ -8,8 +8,18 @@ class TennisTest {
   public void testInitialisationNouveauJoueur(){
     new Joueur();
   }
+  @Test
+  public void testInitPartie(){
+    new Jeu()
+    newJoueur()
+    jeu.reset
+  }
+  
 }
 
 class Jeu {
 
 };
+
+class Joueur{
+}
