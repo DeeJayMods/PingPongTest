@@ -10,16 +10,19 @@ class TennisTest {
   }
   @Test
   public void testInitPartie(){
-    new Jeu()
-    newJoueur()
-    jeu.reset
+    Jeu jeu = new Jeu();
+    Joueur joueur = new Joueur();
+    jeu.reset();
   }
   
 }
 
 class Jeu {
+  private void reset(){
+    
+  }
+}
 
-};
+class Joueur {
 
-class Joueur{
 }
