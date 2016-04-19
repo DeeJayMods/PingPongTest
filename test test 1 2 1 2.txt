@@ -16,15 +16,26 @@ class TennisTest {
     Assert.assertEquals( '0-0', jeu.score() ); 
   }
   
+  @Test
+  public void testMarquerPoint(){
+    Jeu jeu = new Jeu();
+    Joueur joueur1 = new Joueur();
+    Joueur joueur2 = new Joueur();
+    joueur1.marque();
+    Assert.assertEquals( '15-0', jeu.score() ); 
+  }
+  
 }
 
 class Jeu {
+  String score = '0-0';
+
   private void reset(){
-    
+    this.score = '0-0';
   }
   
-  private void score (score : string){
-  string : score = score ;
+  private void score (){
+    return this.score;
   }
 }
 
