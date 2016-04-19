@@ -29,7 +29,13 @@ class TennisTest {
 
 class Jeu {
   String score = '0-0';
-
+  Integer scoreJoueur1 = 0;
+  Integer scoreJoueur2 = 0;
+  
+  private void mergeScore(){
+    this.score = Integer.toString(this.scoreJoueur1) + "-"+ Integer.toString(this.scoreJoueur2) ;
+  }
+  
   private void reset(){
     this.score = '0-0';
   }
@@ -40,5 +46,9 @@ class Jeu {
 }
 
 class Joueur {
-
+  private void marque(){
+  
+  jeu.mergeScore();
+    
+  }
 }
