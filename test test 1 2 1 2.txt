@@ -28,6 +28,7 @@ class TennisTest {
 }
 
 class Jeu {
+  Array arrayScore [0,15,30,40] ;
   String score = '0-0';
   Integer scoreJoueur1 = 0;
   Integer scoreJoueur2 = 0;
@@ -46,8 +47,12 @@ class Jeu {
 }
 
 class Joueur {
-  private void marque(){
-  
+  private void marque(int player){
+  if (player = 1){
+    RealScoreJoueur1 = Jeu.arrayScore[scoreJoueur1];
+  }else{
+  RealScoreJoueur2 = Jeu.arrayScore[scoreJoueur2];
+  }
   jeu.mergeScore();
     
   }
